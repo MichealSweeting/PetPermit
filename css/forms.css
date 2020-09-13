@@ -1,0 +1,254 @@
+html, body{
+    padding:0;
+    margin: 0;
+    min-width:100vp;
+  
+    
+    
+    
+
+}
+
+.container {
+
+
+display:flex;
+flex-flow:column;
+}
+
+a {
+   text-decoration:none;
+}
+
+
+
+/* HEADER =============
+=================*/
+
+
+header {
+background: url("../img/header.jpg");
+background-position:center center;
+background-size:cover;
+height:43em;
+
+}
+
+nav {
+
+display:inline;
+
+}
+
+nav a {
+
+
+color:#fff;
+}
+
+
+
+nav ul {
+padding:0em 2em;
+float:right;
+text-decoration:none;
+}
+
+.nav-txt {
+
+display:inline-block;
+padding: 1em;
+font-weight:bold;
+font-size:2em;
+font-family:raleway;
+}
+
+.nav-links {
+text-decoration: none;
+
+}
+
+.nav-links:hover{
+color:#66FFfF;
+}
+.nav-txt:hover {
+box-shadow:0px 0px 5px 1px;
+color:#66FFfF;
+
+}
+.nav-txt:focus {
+box-shadow:0px 0px 5px 1px;
+color:#66FFfF;
+}
+
+.logo {
+padding:1em;
+position:absolute;
+top:24em;
+width:18em;
+}
+
+@media(max-width:320px) {
+.logo { 
+   display:none;   
+  max-width:50%;
+}
+
+}
+
+
+
+
+
+
+
+
+.sec-1 {
+   
+height:50em;
+display:flex;
+flex-flow: row;
+background: #66ffff;
+
+
+}
+
+
+.info-1 { 
+ width:50%;
+}
+
+.info-2{
+ width:50%;
+}
+
+.txt-area-1 {
+
+   padding:1em;
+   font-family:raleway;
+   font-size:1.3em; 
+}
+
+.txt-area-2 {
+   
+   padding:1em;
+   font-family:raleway;
+   font-size:0.9em; 
+}
+
+
+
+
+
+ul > li {
+   padding:0.4em;
+}
+
+
+
+
+@media(max-width:800px) {
+   .sec-1 {
+      display:flex;
+      flex-flow: column;
+      height:100em;
+   }
+   .info-1, .info-2 {
+    
+      height:50em;
+      width:100%;
+      
+   }
+ .sep-2 {
+   border-top:2px solid black;
+   width:80%;
+   border-radius:1em;
+ }
+   h1,  {
+      text-align:center;
+   }
+
+}
+
+@media(max-width:400px) {
+   .sec-1 {
+      height:130em;
+   }
+   .info-1, .info-2 {
+      height:80em;
+     
+   }
+
+}
+
+@media (max-width:250px){
+   .sec-1 {
+      height:150em;
+   }
+}
+
+
+
+
+
+
+/* Footer Section ===============
+=========================*/
+
+
+footer {
+margin:0 auto;
+border:1px solid white;
+width:100%;
+height:auto;
+background: rgb(34, 28, 28);
+
+
+}
+.ftr {
+display:flex;
+flex-flow:row;
+}
+
+.rates {
+padding:1em;
+
+display:block;
+width:50%;
+
+}
+
+.ftr-h {
+font-family:raleway;
+font-weight:bold;
+font-size:1em;
+color:#66ffff;
+}
+
+.ftr-p {
+font-family:raleway;
+color:#66ffff;
+font-size:1em;
+}
+
+.reviews {
+
+width:50%;
+}
+
+@media(max-width:800px) {
+.container {
+height:auto;
+}
+.ftr{
+   
+   display:flex;
+   flex-flow:rcolumn;
+  
+}
+.ftr-h, .ftr-p {
+   font-size:1em;
+}
+
+}
+
